@@ -1,0 +1,27 @@
+#Contato{
+   padding: 10px;
+   margin-bottom: 30px;
+
+}
+.contatoh1{
+   font-size: 250%;
+}
+.contatoparagrafo{
+  flex: 1;
+  display: flex;
+  justify-content: start;
+   flex-direction: column;
+   justify-content: flex-start;
+   font-size: 190%;
+}
+.email{
+   padding: 10px;
+   font-size: 150%;
+}
+.contatolink a{
+   color: #ffff;
+   background-color: #2F5618;
+   border-radius: 30px;
+   padding: 5px 10px;
+  border: 2px #808080;
+}
