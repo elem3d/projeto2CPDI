@@ -1,0 +1,47 @@
+#Contato{
+   padding: 50px;
+   margin-bottom: 30px;
+}
+.contato{
+    height: 300px;
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    align-items: end;
+    flex-direction: column;
+}
+
+.contato h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: var(--fontePrimaria);
+    font-size: var(--fonteTitulo);
+}
+.contato p{
+    margin-left: 300px;
+    font-size: var(--fonteParagrafo);
+    text-align: right;
+}
+.email{
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 150%;
+    border-radius: 10px;
+    background-color: var(--corFundo2);
+}
+.links{
+    margin: 20px;
+    margin-right: 0px;
+    align-items: end;
+}
+.contatolink {
+    margin: 5px;
+    width: 200px;
+    color: #ffff;
+    background-color: #2F5618;
+    border-radius: 30px;
+    padding: 5px 10px;
+    border: 2px #808080;
+    align-content: center;
+}
