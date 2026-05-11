@@ -1,0 +1,73 @@
+#conteudo{
+    background-color: var(--corFundo2);
+    border-radius: 100px;
+    margin: 0 50px 0;
+}
+
+.tituloSection {
+    display: flex;
+    justify-content: center;
+    font-size: var(--fonteTitulo);
+    font-family: var(--fontePrimaria);
+    border-bottom: solid;
+    margin: 0 15% 30px;
+}
+
+.conteudoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cardJogo {
+    background-color: var(--cordeDetalhe);
+    color: #ecececcf;
+    border: solid;
+    border-color: #313b43;
+    border-width: 10px;
+    border-radius: 24px;
+    border-style:ridge;
+    width: 30%;
+    margin-bottom: 2%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.textoCard h1 {
+    font-family: var(--fontePrimaria);
+    font-size: 40px;
+    padding: 5px 10px;
+    background-color: #242e368e;
+    border-radius: 15px;
+    border-style: outset;
+    border-color:#9faec5 ;
+    text-align: center;
+}
+
+.textoCard h2 {
+    font-style: normal;
+    font-weight: 900;
+}
+
+.cardJogo img {
+    max-width: 250px;
+    max-height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-style: inset;
+    border-color: #5f8847;
+    border-width: 5px;
+}
