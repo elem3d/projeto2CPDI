@@ -2,11 +2,6 @@
     color: var(--corDetalhe);
     font-size: var(--fonteParagrafo);
 }
-body {
-    margin: 0; 
-    font-family: Arial, sans-serif; /
-}
-
 
 #navegacao {
     background-color: var(--corFundo); 
